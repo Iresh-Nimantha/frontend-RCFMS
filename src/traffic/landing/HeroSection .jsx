@@ -26,7 +26,7 @@ function HeroSection() {
       buttonText: "Get Started",
       buttonLink: "/signup",
       secondaryButtonText: "Learn More",
-      image: "src/assets/1.jpg",
+      image: "./assets/1.jpg",
       stats: [
         { value: "3M+", label: "Users" },
         { value: "2min", label: "Avg. Time to Pay" },
