@@ -6,7 +6,9 @@ import {
   Play,
   MousePointer,
 } from "lucide-react";
-
+import heroimg1 from "../../assets/1.jpg";
+import heroimg2 from "../../assets/2.jpg";
+import heroimg3 from "../../assets/3.jpg";
 function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +28,7 @@ function HeroSection() {
       buttonText: "Get Started",
       buttonLink: "/signup",
       secondaryButtonText: "Learn More",
-      image: "./assets/1.jpg",
+      image: heroimg1,
       stats: [
         { value: "3M+", label: "Users" },
         { value: "2min", label: "Avg. Time to Pay" },
@@ -42,7 +44,7 @@ function HeroSection() {
       buttonText: "Pay Now",
       buttonLink: "/payment",
       secondaryButtonText: "Calculate Fees",
-      image: "src/assets/1.jpg",
+      image: heroimg2,
       stats: [
         { value: "24/7", label: "Service" },
         { value: "100%", label: "Secure" },
@@ -58,7 +60,7 @@ function HeroSection() {
       buttonText: "Enable Alerts",
       buttonLink: "/alerts",
       secondaryButtonText: "View Demo",
-      image: "src/assets/3.jpg",
+      image: heroimg3,
       stats: [
         { value: "-60%", label: "Late Fees" },
         { value: "Instant", label: "Notifications" },

@@ -7,6 +7,10 @@ import {
   ThumbsUp,
   User,
 } from "lucide-react";
+import person1 from "../../assets/business.jpg";
+
+import person2 from "../../assets/driver.jpg";
+import person3 from "../../assets/traffuc.jpg";
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);
@@ -21,7 +25,7 @@ const Testimonials = () => {
       feedback:
         "RCFMS made paying fines so much easier! No more long queues at the police station.",
       rating: 5,
-      image: "src/assets/driver.jpg",
+      image: person3,
       date: "February 15, 2025",
       longFeedback:
         "I used to spend hours at the police station to pay my fines. With RCFMS, I can now check and pay all my fines online within minutes. The receipt is delivered instantly to my email. This system has saved me so much time and frustration!",
@@ -33,7 +37,7 @@ const Testimonials = () => {
       feedback:
         "Issuing fines digitally has reduced paperwork and improved efficiency in my work.",
       rating: 4,
-      image: "src/assets/traffuc.jpg",
+      image: person2,
       date: "January 22, 2025",
       longFeedback:
         "As a traffic officer with over 15 years of experience, I've seen how much time we waste on paperwork. RCFMS has revolutionized how we issue fines. The digital system is fast, accurate, and reduces errors. I can now focus more on ensuring road safety instead of administrative tasks.",
@@ -45,7 +49,7 @@ const Testimonials = () => {
       feedback:
         "Tracking payments and generating reports has never been this simple. Great system!",
       rating: 5,
-      image: "src/assets/business.jpg",
+      image: person1,
       date: "March 3, 2025",
       longFeedback:
         "The administrative dashboard is powerful yet intuitive. I can generate comprehensive reports in seconds, track payment statistics, and monitor system performance all from one place. The analytics features help us identify trends and make data-driven decisions.",
@@ -57,7 +61,7 @@ const Testimonials = () => {
       feedback:
         "Managing fines for my fleet of delivery vehicles is now streamlined and organized.",
       rating: 4,
-      image: "src/assets/driver.jpg",
+      image: person2,
       date: "February 28, 2025",
       longFeedback:
         "With a fleet of 12 delivery vehicles, keeping track of fines was a nightmare before RCFMS. Now I can view all vehicles in one dashboard, set up alerts for new fines, and manage payments centrally. This has significantly improved our compliance and reduced late payment penalties.",
@@ -69,7 +73,7 @@ const Testimonials = () => {
       feedback:
         "Even at my age, I found the system easy to use. The interface is very clear and straightforward.",
       rating: 5,
-      image: "src/assets/business.jpg",
+      image: person1,
       date: "January 10, 2025",
       longFeedback:
         "At 72 years old, I was worried about using a digital system. However, RCFMS surprised me with its simplicity. The large text, clear instructions, and helpful support made it easy for me to check and pay my fine without assistance. I recommend it to everyone in my senior community.",
