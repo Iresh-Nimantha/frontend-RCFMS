@@ -7,10 +7,10 @@ import {
   ThumbsUp,
   User,
 } from "lucide-react";
-import person1 from "../../assets/business.jpg";
+import person1 from "./assets/business.jpg";
 
-import person2 from "../../assets/driver.jpg";
-import person3 from "../../assets/traffuc.jpg";
+import person2 from "./assets/driver.jpg";
+import person3 from "./assets/traffuc.jpg";
 
 const Testimonials = () => {
   const [activeIndex, setActiveIndex] = useState(0);

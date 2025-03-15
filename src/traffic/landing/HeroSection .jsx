@@ -6,9 +6,9 @@ import {
   Play,
   MousePointer,
 } from "lucide-react";
-import heroimg1 from "../../assets/1.jpg";
-import heroimg2 from "../../assets/2.jpg";
-import heroimg3 from "../../assets/3.jpg";
+import heroimg1 from "./assets/1.jpg";
+import heroimg2 from "./assets/2.jpg";
+import heroimg3 from "./assets/3.jpg";
 function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [isVisible, setIsVisible] = useState(false);
